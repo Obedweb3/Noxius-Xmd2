@@ -16,135 +16,135 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = ` ╭━━━━━〔 🚀 BOT INFORMATION 〕━━━━╮
-┃ 👑 Owner      : ${config.OWNER_NAME}
-┃ ⚙️ Prefix     : [${config.PREFIX}]
-┃ 🌐 Platform   : Heroku
-┃ 📦 Version    : 4.0.0
-┃ ⏱️ Runtime    : ${runtime(process.uptime())}
+┃ ♦️ Owner      : ${config.OWNER_NAME}
+┃ ♦️ Prefix     : [${config.PREFIX}]
+┃ ♦️ Platform   : Heroku
+┃ ♦️ Version    : 4.0.0
+┃ ♦️ Runtime    : ${runtime(process.uptime())}
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
 
 ╭─────〔 📥 DOWNLOAD MENU 〕─────╮
-┃ 🟦 facebook     📁 mediafire     🎵 tiktok
-┃ 🐦 twitter      📷 insta         📦 apk
-┃ 🖼️ img          ▶️ tt2           📌 pins
-┃ 🔄 apk2         🔵 fb2           📍 pinterest
-┃ 🎶 spotify      🎧 play          🎧 play2
-┃ 🔉 audio        🎬 video         📹 video2
-┃ 🎵 ytmp3        📹 ytmp4         🎶 song
-┃ 🎬 darama       ☁️ gdrive        🌐 ssweb
-┃ 🎵 tiks
+┃  facebook      mediafire     🎵 tiktok
+┃  twitter       insta          apk
+┃  img           tt2            pins
+┃  apk2          fb2            pinterest
+┃  spotify       play           play2
+┃  audio         video          video2
+┃  ytmp3         ytmp4          song
+┃  darama        gdrive         ssweb
+┃  tiks
 ╰────────────────────────────╯
 
 
 ╭─────〔 👥 GROUP MENU 〕─────╮
-┃ 🔗 grouplink     ➕ add         ➖ remove
-┃ 👢 kick          ⬆️ promote    ⬇️ demote
-┃ 🚮 dismiss       🔄 revoke      👋 setgoodbye
-┃ 🎉 setwelcome    🗑️ delete      🖼️ getpic
-┃ ℹ️ ginfo         ⏳ disappear on/off/7D
-┃ 📝 updategname   📝 updategdesc
-┃ 📩 joinrequests  📨 senddm      🏃 nikal
-┃ 🔇 mute          🔊 unmute      🔒 lockgc
-┃ 🔓 unlockgc      📩 invite      #️⃣ tag
-┃ 🏷️ hidetag       @️⃣ tagall     👔 tagadmins
+┃  grouplink      add          remove
+┃  kick           promote     demote
+┃  dismiss        revoke       setgoodbye
+┃  setwelcome     delete       getpic
+┃  ginfo          disappear on/off/7D
+┃  updategname    updategdesc
+┃  joinrequests   senddm       nikal
+┃  mute           unmute       lockgc
+┃  unlockgc       invite       tag
+┃  hidetag        tagall       tagadmins
 ╰────────────────────────────╯
 
 
 ╭────〔 🎭 REACTIONS MENU 〕────╮
-┃ 👊 bully    🤗 cuddle   😢 cry     🤗 hug
-┃ 🐺 awoo     💋 kiss     👅 lick    🖐️ pat
-┃ 😏 smug     🔨 bonk     🚀 yeet    😊 blush
-┃ 😄 smile    👋 wave     ✋ highfive
-┃ 🤝 handhold 🍜 nom      🦷 bite    🤗 glomp
-┃ 👋 slap     💀 kill     😊 happy   😉 wink
-┃ 👉 poke     💃 dance    😬 cringe
+┃  bully     cuddle    cry      hug
+┃  awoo      kiss      lick     pat
+┃  smug      bonk      yeet     blush
+┃  smile     wave      highfive
+┃  handhold  nom       bite     glomp
+┃  slap      kill      happy    wink
+┃  poke      dance     cringe
 ╰────────────────────────────╯
 
 
 ╭────〔 🎨 LOGO MAKER 〕────╮
-┃ 💡 neonlight     🎀 blackpink    🐉 dragonball
-┃ 🎭 3dcomic       🇺🇸 america      🍥 naruto
-┃ 😢 sadgirl       ☁️ clouds       🚀 futuristic
-┃ 📜 3dpaper       ✏️ eraser       🌇 sunset
-┃ 🍃 leaf          🌌 galaxy       💀 sans
-┃ 💥 boom          💻 hacker        😈 devilwings
-┃ 🇳🇬 nigeria       💡 bulb          👼 angelwings
-┃ ♈ zodiac         💎 luxury        🎨 paint
-┃ ❄️ frozen        🏰 castle        🖋️ tatoo
-┃ 🔫 valorant      🐻 bear          🔠 typography
-┃ 🎂 birthday
+┃  neonlight      blackpink     dragonball
+┃  3dcomic        america       naruto
+┃  sadgirl        clouds        futuristic
+┃  3dpaper        eraser        sunset
+┃  leaf           galaxy        sans
+┃  boom           hacker        devilwings
+┃  nigeria        bulb          angelwings
+┃  zodiac         luxury        paint
+┃  frozen         castle         tatoo
+┃  valorant       bear           typography
+┃  birthday
 ╰────────────────────────────╯
 
 
 ╭────〔 👑 OWNER MENU 〕────╮
-┃ 👑 owner      📜 menu       📜 menu2
-┃ 📊 vv         📋 listcmd    📚 allmenu
-┃ 📦 repo       🚫 block      ✅ unblock
-┃ 🖼️ fullpp     🖼️ setpp      🔄 restart
-┃ ⏹️ shutdown   🔄 updatecmd  💚 alive
-┃ 🏓 ping       🆔 gjid        🆔 jid
+┃  owner       menu        menu2
+┃  vv          listcmd     allmenu
+┃  repo        block       unblock
+┃  fullpp      setpp       restart
+┃  shutdown    updatecmd   alive
+┃  ping        gjid         jid
 ╰────────────────────────╯
 
 
 ╭────〔 🎉 FUN MENU 〕────╮
-┃ 🤪 shapar     ⭐ rate        🤬 insult
-┃ 💻 hack       💘 ship        🎭 character
-┃ 💌 pickup     😆 joke        ❤️ hrt
-┃ 😊 hpy        😔 syd         😠 anger
-┃ 😳 shy        💋 kiss        🧐 mon
-┃ 😕 cunfuzed   ✋ hand         🤲 hold
-┃ 🤗 hug        👉 poke        🎵 hifi
+┃  shapar      rate         insult
+┃  hack        ship         character
+┃  pickup      joke         hrt
+┃  hpy         syd          anger
+┃  shy         kiss         mon
+┃  cunfuzed    hand         hold
+┃  hug         poke         hifi
 ╰──────────────────────────╯
 
 
 ╭────〔 🔄 CONVERT MENU 〕────╮
-┃ 🏷️ sticker     🏷️ sticker2    😀 emojimix
-┃ ✨ fancy        🖼️ take         🎵 tomp3
-┃ 🗣️ tts          🌐 trt          🔢 base64
-┃ 🔠 unbase64     010 binary      🔤 dbinary
-┃ 🔗 tinyurl      🌐 urldecode    🌐 urlencode
-┃ 🌐 url          🔁 repeat       ❓ ask
-┃ 📖 readmore
+┃  sticker      sticker2      emojimix
+┃  fancy        take          tomp3
+┃  tts          trt           base64
+┃  unbase64     binary        dbinary
+┃  tinyurl      urldecode     urlencode
+┃  url          repeat        ask
+┃  readmore
 ╰────────────────────────────╯
 
 
 ╭────〔 🤖 AI MENU 〕────╮
-┃ 🧠 ai       🤖 gpt3     🤖 gpt2     🤖 gptmini
-┃ 🤖 gpt     🔵 meta     📦 blackbox 🌈 luma
-┃ 🎧 dj      👑 dml1     🤵 dml    🧠 gpt4
-┃ 🔍 bing    🎨 imagine  🖼️ imagine2 🤖 copilot
+┃  ai       gpt3     gpt2       gptmini
+┃  gpt      meta      blackbox  luma
+┃  dj       obed      noxius    gpt4
+┃  bing     imagine   imagine2  copilot
 ╰────────────────────────╯
 
 
 ╭────〔 ⚡ MAIN MENU 〕────╮
-┃ 🏓 ping     🏓 ping2     🚀 speed
-┃ 📡 live     💚 alive     ⏱️ runtime
-┃ ⏳ uptime   📦 repo       👑 owner
-┃ 📜 menu     📜 menu2      🔄 restart
+┃  ping      ping2       speed
+┃  live      alive       runtime
+┃  uptime    repo        owner
+┃  menu      menu2       restart
 ╰─────────────────────────╯
 
 
 ╭────〔 🎎 ANIME MENU 〕────╮
-┃ 🤬 fack       ✅ truth       😨 dare
-┃ 🐶 dog        🐺 awoo        👧 garl
-┃ 👰 waifu      🐱 neko        🧙 megnumin
-┃ 👗 maid       👧 loli        🎎 animegirl(1–5)
-┃ 🎬 anime(1–5) 📰 animenews   🦊 foxgirl
-┃ 🍥 naruto
+┃  fack        truth        dare
+┃  dog         awoo         garl
+┃  waifu       neko         megnumin
+┃  maid        loli         animegirl(1–5)
+┃  anime(1–5)  animenews   foxgirl
+┃  naruto
 ╰────────────────────────────╯
 
 
 ╭────〔 ℹ️ OTHER MENU 〕────╮
-┃ 🕒 timenow    📅 date        🔢 count
-┃ 🧮 calculate  🔢 countx      🎲 flip
-┃ 🪙 coinflip   🎨 rcolor      🎲 roll
-┃ ℹ️ fact       💻 cpp         🎲 rw
-┃ 💑 pair(1–3)  ✨ fancy        🎨 logo <text>
-┃ 📖 define     📰 news         🎬 movie
-┃ ☀️ weather    📦 srepo        🤬 insult
-┃ 💾 save       🌐 wikipedia    🔑 gpass
-┃ 👤 githubstalk🔍 yts          📹 ytv
+┃  timenow     date        count
+┃  calculate   countx        flip
+┃  coinflip    rcolor        roll
+┃  fact        cpp           rw
+┃  pair(1–3)   fancy         logo <text>
+┃  define      news          movie
+┃  weather     srepo         insult
+┃  save        wikipedia     gpass
+┃  githubstalk yts           ytv
 ╰────────────────────────────╯
 > ${config.DESCRIPTION}`;
 
