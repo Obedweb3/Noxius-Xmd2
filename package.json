@@ -1,12 +1,12 @@
 {
-  "name": "CASEYRHODES-MD",
+  "name": "NOXIOUS-XMD",
   "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By Caseyrhodes",
+  "description": "A WhatsApp Bot Created By Obedtech",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name CASEYRHODES-XMD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name NOXIUS-XMD",
     "stop": "pm2 stop CASEYRHODES-XMD",
-    "restart": "pm2 restart CASEYRHODES-XMD"
+    "restart": "pm2 restart NOXIUS-XMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
