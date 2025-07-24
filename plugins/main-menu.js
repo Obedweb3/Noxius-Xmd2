@@ -7,7 +7,7 @@ const path = require("path");
 
 cmd({
   pattern: "menu",
-  alias: ["allmenu", "bmb"],
+  alias: ["menu", "menu2"],
   use: '.menu',
   desc: "menu the bot",
   category: "menu",
