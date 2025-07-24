@@ -1,7 +1,7 @@
 {
   "name": "𝐍𝐎𝐗𝐈𝐔𝐒-𝐗𝐌𝐃",
   "description": "An Advanced Whatsapp bot 🚀 built for fast automation, media tool, and smooth group management developed by ᴏʙᴇᴅᴛᴇᴄʜ",
-  "logo": "https://files.catbox.moe/vcdwmp.jpg",
+  "logo": "https://files.catbox.moe/bg81sj.jpg",
   "keywords": ["NOXIUS XMD"],
   "success_url": "/",
 
@@ -131,7 +131,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/vcdwmp.jpg"
+      "value": "https://files.catbox.moe/bg81sj.jpg"
     },
     
      "DESCRIPTION": {
